@@ -29,5 +29,5 @@ I started by defining the ADT for the class Sequence following the example of wh
   ```
 
 As second step, I defined the `Sequence` trait using Scala and I wrote the tests by translating the axioms in Scala Check
-code. (`SequenceDIY` and `SequenceList`) have been realized by extending the trait and then tested using the `SequenceCheck` 
+code. `SequenceDIY` and `SequenceList` have been implemented by extending the trait `Sequence` and then tested using the `SequenceCheck` 
 object.
