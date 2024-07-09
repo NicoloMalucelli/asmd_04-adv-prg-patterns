@@ -28,8 +28,8 @@ I started by defining the ADT for the class Sequence following the example of wh
   map(cons(h, t), f) => cons(f(h), map(t, f))
   ```
 
-As second step, I defined the `Sequence` trait using Scala and I wrote the tests by translating the axioms in Scala Check
-code. `SequenceDIY` and `SequenceList` have been implemented by extending the trait `Sequence` and then tested using the `SequenceCheck`
+As second step, I defined the `Sequence` trait using Scala and I wrote the tests by translating the axioms in Scala Check code.
+`SequenceDIY` and `SequenceList` have been implemented by extending the trait `Sequence` and then tested using the `SequenceCheck`
 object.
 
 ## Task 5: ADVANCED-FP-LLM
@@ -178,4 +178,4 @@ the necessity of providing additional information.
 
 To conclude, I think that LLMs such as ChatGPT can be a really helpful tool when we have to define an ADT. In the scenario I tested, the class
 to describe was a well known one (Optional), therefore I didn't have to describe  how it works, the possible operations and the expected results, anyway
-I think that this process can also be applied to any class previous description of the scenario. 
+I think that this process can also be applied to any class previous description of the scenario.
